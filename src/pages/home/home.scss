@@ -1,3 +1,22 @@
-.home {
+// .homeContainer {
+//   position: relative;
+// }
+.topContainer {
   background-color: #003580;
+}
+.featuredContainer {
+  margin-top: 70px;
+}
+.propertyListContainer {
+  // position: relative;
+  width: 1024px;
+  margin: 100px auto;
+
+  .propertyListTitle {
+    font-size: 25px;
+  }
+  .featuredPropertiesTitle {
+    font-size: 25px;
+    margin-top: 15px;
+  }
 }
