@@ -5,6 +5,7 @@ import './home.scss';
 import Featured from '../../components/featured/Featured';
 import { PropertyList } from '../../components/propertyList/PropertyList';
 import FeaturedProperties from '../../components/featuredProperties/FeaturedProperties';
+import MailList from '../../components/mailList/MailList';
 export default function Home() {
   return (
     <div>
@@ -21,6 +22,7 @@ export default function Home() {
         <h1 className="featuredPropertiesTitle">Home guest love</h1>
         <FeaturedProperties />
       </div>
+      <MailList />
     </div>
   );
 }
