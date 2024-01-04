@@ -1,0 +1,27 @@
+.navbar {
+  margin: auto;
+  width: 100%;
+  max-width: 1024px;
+  color: white;
+  background-color: #003580;
+  padding: 15px 0;
+}
+.navbar .navItems {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.navbar .navItems .navLogo {
+  font-weight: bold;
+  font-size: larger;
+}
+.navbar .navItems .navButton .item {
+  margin: 0 10px;
+  background-color: #fff;
+  padding: 8px;
+  color: #003580;
+  outline: #003580;
+  cursor: pointer;
+  border: 1px solid #003580;
+  border-radius: 4px;
+}/*# sourceMappingURL=navbar.css.map */

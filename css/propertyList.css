@@ -1,0 +1,25 @@
+.pList {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+  max-width: 1024px;
+  margin-top: 15px;
+}
+.pList .pListItem {
+  cursor: pointer;
+}
+.pList .pListItem .pListImage {
+  border-radius: 10px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.pList .pListItem .pListTitle h1 {
+  font-size: 20px;
+}
+.pList .pListItem .pListTitle h2 {
+  font-size: 15px;
+  margin-top: 7px;
+  color: darkgray;
+}/*# sourceMappingURL=propertyList.css.map */

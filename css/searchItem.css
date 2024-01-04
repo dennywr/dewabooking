@@ -1,0 +1,85 @@
+.siContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  border: 1px darkgray solid;
+  border-radius: 5px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+.siContainer .siImage {
+  width: 200px;
+  height: 200px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.siContainer .siDesc {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  flex: 2;
+}
+.siContainer .siDesc .siTitle {
+  color: rgb(30, 140, 184);
+  font-size: 21px;
+}
+.siContainer .siDesc .siDistance {
+  font-size: 12px;
+}
+.siContainer .siDesc .siFeatures {
+  font-size: 13px;
+}
+.siContainer .siDesc .siSubtitle {
+  font-weight: bold;
+  font-size: 13px;
+}
+.siContainer .siDesc .siTaxiOp {
+  background-color: green;
+  padding: 3px;
+  border-radius: 5px;
+  max-width: -moz-max-content;
+  max-width: max-content;
+  color: #fff;
+  font-size: 13px;
+}
+.siContainer .siDesc .siCancelOp {
+  color: green;
+  font-weight: bold;
+  font-size: 13px;
+}
+.siContainer .siDesc .siCancelOpSubtitle {
+  font-size: 13px;
+  color: green;
+}
+.siContainer .siDetail {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.siContainer .siDetail .siDetailReview {
+  display: flex;
+  justify-content: space-between;
+}
+.siContainer .siDetail .siDetailReview .siDetailReviewRating {
+  background-color: #003580;
+  color: #fff;
+  padding: 4px;
+}
+.siContainer .siDetail .siDetailPrice {
+  display: flex;
+  text-align: right;
+  flex-direction: column;
+  gap: 5px;
+}
+.siContainer .siDetail .siDetailPrice .siDetailPriceInfo {
+  font-size: 18px;
+}
+.siContainer .siDetail .siDetailPrice button {
+  background-color: #1761c7;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+}/*# sourceMappingURL=searchItem.css.map */

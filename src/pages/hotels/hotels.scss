@@ -1,3 +1,72 @@
 .hotels {
   background-color: #003580;
 }
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .listWrapper {
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+
+    .listSearch {
+      flex: 1;
+      padding: 30px;
+      background-color: rgb(171, 171, 54);
+      border-radius: 10px;
+      position: sticky;
+      top: 10px;
+
+      .listItem {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+
+        label {
+          font-size: 12px;
+        }
+
+        input {
+          padding: 10px;
+          border: none;
+        }
+        span {
+          padding: 10px;
+          border: none;
+          background-color: #fff;
+        }
+
+        .listOption {
+          padding-left: 10px;
+          margin-top: 10px;
+
+          .listOptionItem {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 5px;
+            input {
+              width: 70px;
+              padding: 5px;
+            }
+          }
+        }
+        button {
+          padding: 8px;
+          cursor: pointer;
+          color: #fff;
+          background-color: #003580;
+          border: none;
+        }
+      }
+    }
+    .listResult {
+      flex: 3;
+    }
+  }
+}

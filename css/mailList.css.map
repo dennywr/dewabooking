@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/components/mailList/mailList.scss","mailList.css"],"names":[],"mappings":"AAAA;EACE,WAAA;EACA,yBAAA;EACA,aAAA;EACA,WAAA;EACA,aAAA;EACA,sBAAA;EACA,mBAAA;EACA,SAAA;ACCF;ADEI;EACE,YAAA;EACA,YAAA;EACA,aAAA;EACA,YAAA;EACA,iBAAA;EACA,kBAAA;ACAN;ADEI;EACE,aAAA;EACA,eAAA;EACA,YAAA;EACA,WAAA;EACA,kBAAA;EACA,mCAAA;ACAN","file":"mailList.css"}

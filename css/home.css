@@ -1,0 +1,19 @@
+.topContainer {
+  background-color: #003580;
+}
+
+.featuredContainer {
+  margin-top: 70px;
+}
+
+.propertyListContainer {
+  width: 1024px;
+  margin: 100px auto;
+}
+.propertyListContainer .propertyListTitle {
+  font-size: 25px;
+}
+.propertyListContainer .featuredPropertiesTitle {
+  font-size: 25px;
+  margin-top: 15px;
+}/*# sourceMappingURL=home.css.map */

@@ -1,0 +1,26 @@
+.mail {
+  width: 100%;
+  background-color: #003580;
+  padding: 50px;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.mail .mailInput input {
+  width: 300px;
+  height: 20px;
+  padding: 20px;
+  border: none;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+.mail .mailInput button {
+  padding: 13px;
+  cursor: pointer;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  background-color: rgb(68, 143, 230);
+}/*# sourceMappingURL=mailList.css.map */

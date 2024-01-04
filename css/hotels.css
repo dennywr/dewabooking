@@ -1,0 +1,65 @@
+.hotels {
+  background-color: #003580;
+}
+
+.listContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.listContainer .listWrapper {
+  width: 100%;
+  max-width: 1024px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+.listContainer .listWrapper .listSearch {
+  flex: 1;
+  padding: 30px;
+  background-color: rgb(171, 171, 54);
+  border-radius: 10px;
+  position: sticky;
+  top: 10px;
+}
+.listContainer .listWrapper .listSearch .listItem {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.listContainer .listWrapper .listSearch .listItem label {
+  font-size: 12px;
+}
+.listContainer .listWrapper .listSearch .listItem input {
+  padding: 10px;
+  border: none;
+}
+.listContainer .listWrapper .listSearch .listItem span {
+  padding: 10px;
+  border: none;
+  background-color: #fff;
+}
+.listContainer .listWrapper .listSearch .listItem .listOption {
+  padding-left: 10px;
+  margin-top: 10px;
+}
+.listContainer .listWrapper .listSearch .listItem .listOption .listOptionItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+.listContainer .listWrapper .listSearch .listItem .listOption .listOptionItem input {
+  width: 70px;
+  padding: 5px;
+}
+.listContainer .listWrapper .listSearch .listItem button {
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #003580;
+  border: none;
+}
+.listContainer .listWrapper .listResult {
+  flex: 3;
+}/*# sourceMappingURL=hotels.css.map */
