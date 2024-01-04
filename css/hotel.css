@@ -1,1 +1,95 @@
-/*# sourceMappingURL=hotel.css.map */
+.hotel {
+  background-color: #003580;
+}
+
+.hotelContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.hotelContainer .hotelWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1024px;
+  gap: 10px;
+  position: relative;
+}
+.hotelContainer .hotelWrapper .reserveButtonOnTop {
+  position: absolute;
+  top: 10;
+  right: 0;
+  padding: 10px;
+  background-color: rgb(68, 143, 230);
+  color: #fff;
+  border: none;
+  width: 180px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.hotelContainer .hotelWrapper .hotelTextInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hotelContainer .hotelWrapper .hotelTextInfo .hotelTitle {
+  font-size: 21px;
+}
+.hotelContainer .hotelWrapper .hotelTextInfo .hotelLocation {
+  font-size: 13px;
+}
+.hotelContainer .hotelWrapper .hotelTextInfo .hotelDistance {
+  font-size: 16px;
+  color: rgb(30, 140, 184);
+}
+.hotelContainer .hotelWrapper .hotelTextInfo .hotelOffers {
+  font-weight: 500;
+  color: green;
+}
+.hotelContainer .hotelWrapper .hotelImages {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.hotelContainer .hotelWrapper .hotelImages .imageWrapper {
+  width: 33%;
+}
+.hotelContainer .hotelWrapper .hotelImages .imageWrapper .hotelImg {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo .hotelDesc {
+  flex: 3;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo .hotelDesc .hotelDescTitle {
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo .hotelReservationOffer {
+  display: flex;
+  flex: 1;
+  max-width: 1024;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px 10px;
+  background-color: lightgray;
+  border-radius: 10px;
+  gap: 10px;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo .hotelReservationOffer .hroTitle {
+  font-size: 18px;
+}
+.hotelContainer .hotelWrapper .hotelDetailInfo .hotelReservationOffer .reserveButton {
+  padding: 10px;
+  background-color: rgb(68, 143, 230);
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}/*# sourceMappingURL=hotel.css.map */

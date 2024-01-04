@@ -1,0 +1,102 @@
+.hotel {
+  background-color: #003580;
+}
+
+.hotelContainer {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+
+  .hotelWrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 1024px;
+    gap: 10px;
+    position: relative;
+
+    .reserveButtonOnTop {
+      position: absolute;
+      top: 10;
+      right: 0;
+      padding: 10px;
+      background-color: rgb(68, 143, 230);
+      color: #fff;
+      border: none;
+      width: 180px;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .hotelTextInfo {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      .hotelTitle {
+        font-size: 21px;
+      }
+      .hotelLocation {
+        font-size: 13px;
+      }
+      .hotelDistance {
+        font-size: 16px;
+        color: rgb(30, 140, 184);
+      }
+      .hotelOffers {
+        font-weight: 500;
+        color: green;
+      }
+    }
+    .hotelImages {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+
+      .imageWrapper {
+        width: 33%;
+
+        .hotelImg {
+          width: 100%;
+          object-fit: cover;
+        }
+      }
+    }
+    .hotelDetailInfo {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      .hotelDesc {
+        flex: 3;
+
+        .hotelDescTitle {
+          font-size: 23px;
+          margin-bottom: 15px;
+        }
+      }
+
+      .hotelReservationOffer {
+        display: flex;
+        flex: 1;
+        max-width: 1024;
+        flex-direction: column;
+        justify-content: space-between;
+        padding: 20px 10px;
+        background-color: lightgray;
+        border-radius: 10px;
+        gap: 10px;
+
+        .hroTitle {
+          font-size: 18px;
+        }
+        .reserveButton {
+          padding: 10px;
+          background-color: rgb(68, 143, 230);
+          color: #fff;
+          border: none;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+      }
+    }
+  }
+}
